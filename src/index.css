@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-app {
+    @apply border max-w-[1110px] mx-auto;
+  }
+}
